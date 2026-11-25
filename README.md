@@ -1,264 +1,264 @@
-# \# UnivPulse — Student Performance Analytics Dashboard
+\# UnivPulse — Student Performance Analytics Dashboard
 
-# 
 
-# UnivPulse is a responsive academic performance analytics dashboard designed to help educational institutions monitor student performance, track academic trends, analyze subject-wise results, and identify students who may need academic support.
 
-# 
+UnivPulse is a responsive academic performance analytics dashboard designed to help educational institutions monitor student performance, track academic trends, analyze subject-wise results, and identify students who may need academic support.
 
-# The project demonstrates how academic data can be presented through an interactive and intuitive dashboard.
 
-# 
 
-# \## Features
+The project demonstrates how academic data can be presented through an interactive and intuitive dashboard.
 
-# 
 
-# \### 1. Overview \& KPIs
 
-# \- Institutional performance summary.
+\## Features
 
-# \- Active student count.
 
-# \- Average marks, attendance, and pass rate.
 
-# \- Semester-based performance filtering.
+\### 1. Overview \& KPIs
 
-# \- CGPA distribution.
+\- Institutional performance summary.
 
-# 
+\- Active student count.
 
-# \### 2. CGPA \& Performance Trends
+\- Average marks, attendance, and pass rate.
 
-# \- Semester-wise CGPA trends.
+\- Semester-based performance filtering.
 
-# \- Average marks progression.
+\- CGPA distribution.
 
-# \- Attendance trends.
 
-# \- Pass rate analysis.
 
-# \- Academic improvement indicators.
+\### 2. CGPA \& Performance Trends
 
-# 
+\- Semester-wise CGPA trends.
 
-# \### 3. Subject \& Attendance Analytics
+\- Average marks progression.
 
-# \- Subject-wise average marks.
+\- Attendance trends.
 
-# \- Attendance comparison.
+\- Pass rate analysis.
 
-# \- Subject performance report.
+\- Academic improvement indicators.
 
-# \- Identification of subjects requiring attention.
 
-# 
 
-# \### 4. At-Risk Intervention Hub
+\### 3. Subject \& Attendance Analytics
 
-# \- Student risk classification: High, Medium, and Low.
+\- Subject-wise average marks.
 
-# \- Risk distribution overview.
+\- Attendance comparison.
 
-# \- Student risk register.
+\- Subject performance report.
 
-# \- Search by student name, ID, or department.
+\- Identification of subjects requiring attention.
 
-# \- Filter records by risk level.
 
-# \- Suggested academic interventions.
 
-# 
+\### 4. At-Risk Intervention Hub
 
-# \## Technology Stack
+\- Student risk classification: High, Medium, and Low.
 
-# 
+\- Risk distribution overview.
 
-# | Technology | Purpose |
+\- Student risk register.
 
-# |---|---|
+\- Search by student name, ID, or department.
 
-# | React 19 | Component-based UI |
+\- Filter records by risk level.
 
-# | Vite 8 | Development and build tool |
+\- Suggested academic interventions.
 
-# | Tailwind CSS 3 | Styling and responsive layouts |
 
-# | JavaScript | Application logic |
 
-# | HTML \& CSS | Structure and styling |
+\## Technology Stack
 
-# | Oxlint | Code quality and linting |
 
-# 
 
-# \## Getting Started
+| Technology | Purpose |
 
-# 
+|---|---|
 
-# \### Prerequisites
+| React 19 | Component-based UI |
 
-# \- Node.js
+| Vite 8 | Development and build tool |
 
-# \- npm
+| Tailwind CSS 3 | Styling and responsive layouts |
 
-# 
+| JavaScript | Application logic |
 
-# \### Installation
+| HTML \& CSS | Structure and styling |
 
-# 
+| Oxlint | Code quality and linting |
 
-# Clone the repository:
 
-# 
 
-# ```bash
+\## Getting Started
 
-# git clone YOUR\_GITHUB\_REPOSITORY\_URL
 
-# ```
 
-# 
+\### Prerequisites
 
-# Navigate into the project:
+\- Node.js
 
-# 
+\- npm
 
-# ```bash
 
-# cd univpulse-app
 
-# ```
+\### Installation
 
-# 
 
-# Install dependencies:
 
-# 
+Clone the repository:
 
-# ```bash
 
-# npm install
 
-# ```
+```bash
 
-# 
+git clone YOUR\_GITHUB\_REPOSITORY\_URL
 
-# Start the development server:
+```
 
-# 
 
-# ```bash
 
-# npm run dev
+Navigate into the project:
 
-# ```
 
-# 
 
-# \### Production Build
+```bash
 
-# 
+cd univpulse-app
 
-# ```bash
+```
 
-# npm run build
 
-# ```
 
-# 
+Install dependencies:
 
-# To preview the production build:
 
-# 
 
-# ```bash
+```bash
 
-# npm run preview
+npm install
 
-# ```
+```
 
-# 
 
-# \## Project Structure
 
-# 
+Start the development server:
 
-# ```text
 
-# univpulse-app/
 
-# ├── public/
+```bash
 
-# ├── src/
+npm run dev
 
-# │   ├── components/
+```
 
-# │   │   └── layout/
 
-# │   ├── data/
 
-# │   ├── pages/
+\### Production Build
 
-# │   ├── App.jsx
 
-# │   ├── App.css
 
-# │   └── index.css
+```bash
 
-# ├── index.html
+npm run build
 
-# ├── package.json
+```
 
-# ├── tailwind.config.js
 
-# └── vite.config.js
 
-# ```
+To preview the production build:
 
-# 
 
-# \## Demo Data Disclaimer
 
-# 
+```bash
 
-# This project currently uses illustrative synthetic sample data for demonstration purposes. Student records, institutional statistics, and academic metrics are not verified real-world records.
+npm run preview
 
-# 
+```
 
-# \## Future Enhancements
 
-# 
 
-# \- Backend API integration.
+\## Project Structure
 
-# \- Database connectivity.
 
-# \- Authentication and role-based access.
 
-# \- Live academic data updates.
+```text
 
-# \- Exportable academic reports.
+univpulse-app/
 
-# \- More advanced predictive analytics.
+├── public/
 
-# 
+├── src/
 
-# \## Author
+│   ├── components/
 
-# 
+│   │   └── layout/
 
-# \*\*Sejal Sani\*\*
+│   ├── data/
 
-# 
+│   ├── pages/
 
-# GitHub: \[sanisejal55-beep](https://github.com/sanisejal55-beep)
+│   ├── App.jsx
 
-# 
+│   ├── App.css
 
-# \---
+│   └── index.css
 
-# 
+├── index.html
 
-# Built as a portfolio project to explore frontend development, data visualization, and academic analytics.
+├── package.json
+
+├── tailwind.config.js
+
+└── vite.config.js
+
+```
+
+
+
+\## Demo Data Disclaimer
+
+
+
+This project currently uses illustrative synthetic sample data for demonstration purposes. Student records, institutional statistics, and academic metrics are not verified real-world records.
+
+
+
+\## Future Enhancements
+
+
+
+\- Backend API integration.
+
+\- Database connectivity.
+
+\- Authentication and role-based access.
+
+\- Live academic data updates.
+
+\- Exportable academic reports.
+
+\- More advanced predictive analytics.
+
+
+
+\## Author
+
+
+
+\*\*Sejal Sani\*\*
+
+
+
+GitHub: \[sanisejal55-beep](https://github.com/sanisejal55-beep)
+
+
+
+\---
+
+
+
+Built as a portfolio project to explore frontend development, data visualization, and academic analytics.
 
